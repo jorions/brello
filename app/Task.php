@@ -10,7 +10,7 @@ class Task extends Model
         return $this->belongsTo('App\Lane');
     }
 
-    public function tasks() {
+    public function tags() {
         return $this->belongsToMany('App\Task');
     }
 }
