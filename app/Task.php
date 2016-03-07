@@ -11,6 +11,6 @@ class Task extends Model
     }
 
     public function tags() {
-        return $this->belongsToMany('App\Task');
+        return $this->belongsToMany('App\Tag');
     }
 }
